@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "Alice",
+        "age": 30,
+        "address": {
+            "street": "123 Maple St",
+            "city": "Springfield",
+            "state": "IL",
+            "zip": "62701"
+        },
+        "skills": ["Python", "SQL", "Data Engineering"],
+        "projects": [
+            {
+                "project_name": "ETL Pipeline",
+                "year": 2021,
+                "technologies": ["Python", "Airflow", "SQL"]
+            },
+            {
+                "project_name": "Data Lake Setup",
+                "year": 2022,
+                "technologies": ["Spark", "AWS S3", "Glue"]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Bob",
+        "age": 27,
+        "address": {
+            "street": "456 Oak Ave",
+            "city": "Metropolis",
+            "state": "NY",
+            "zip": "10001"
+        },
+        "skills": ["Java", "Spark", "Hadoop"],
+        "projects": [
+            {
+                "project_name": "Real-time Data Processing",
+                "year": 2020,
+                "technologies": ["Kafka", "Java", "Flink"]
+            },
+            {
+                "project_name": "Batch Data Processing",
+                "year": 2021,
+                "technologies": ["Hadoop", "Hive", "Pig"]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Carol",
+        "age": 35,
+        "address": {
+            "street": "789 Pine Rd",
+            "city": "Gotham",
+            "state": "NJ",
+            "zip": "07001"
+        },
+        "skills": ["Scala", "Spark", "Kafka"],
+        "projects": [
+            {
+                "project_name": "Streaming Analytics",
+                "year": 2019,
+                "technologies": ["Scala", "Kafka", "Spark Streaming"]
+            },
+            {
+                "project_name": "Data Warehouse Optimization",
+                "year": 2021,
+                "technologies": ["Redshift", "SQL", "ETL"]
+            }
+        ]
+    }
+]
